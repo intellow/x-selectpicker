@@ -63,38 +63,32 @@ function createXselectpicker(select) {
 
     let options = document.getElementById(select.id + '_options');
 
-    let selectOptions = select.options;
-
     addOptions(select.id, '');
 
     if (searchEnabled) {
         options.insertAdjacentHTML('afterbegin', '<div id="'+select.id+'_search"><input id="'+select.id+'_search_input" type="text" x-model="search" x-on:keyup="updateOptionsTest(search, \''+select.id+'\')" class="'+select.getAttribute('search-class')+'"/></div>');
+        document.getElementById(select.id+'_selection').addEventListener("click", function () {
+            // this is not working, not sure why
+            document.getElementById(select.id+'_search_input').focus();
+        });
     }
 }
 
 function updateOptionsTest(value, selectId)
 {
     hideOptions(selectId, value);
-    focusOnSearchInput(selectId);
 }
 
 function hideOptions(selectId, searchText)
 {
     let selectpickerOptions = document.getElementById(selectId+'_options');
-    console.log(selectpickerOptions.childNodes);
     Array.prototype.forEach.call(selectpickerOptions.childNodes, function(element, i) {
-        console.log(element.id);
         if(element.innerText.toLowerCase().includes(searchText.toLowerCase()) || element.id.includes('_search')) {
             element.removeAttribute('style');
         } else {
             element.style.display = 'none';
         }
     });
-}
-
-function focusOnSearchInput(selectId)
-{
-    document.getElementById(selectId+'_search_input').focus();
 }
 
 function addOptions(selectId, searchText)
