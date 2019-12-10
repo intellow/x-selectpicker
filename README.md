@@ -29,7 +29,7 @@ In this example, I'm using [Tailwind CSS](https://tailwindcss.com/) to style my 
     <option value="5">Clarke</option>
 </select>
 ```
-![alt text](https://github.com/intellow/x-selectpicker/blob/master/x-selectpicker.gif "Sample Usage")
+![x-selectpicker-in-action](https://github.com/intellow/x-selectpicker/blob/master/x-selectpicker-search.gif "Sample Usage")
 
 
 ## Contributing
