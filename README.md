@@ -16,8 +16,8 @@ Add the class `x-selectpicker` to any select element. Then you can fully customi
 In this example, I'm using [Tailwind CSS](https://tailwindcss.com/) to style my selectpicker:
 ```html
 <select id="people" class="x-selectpicker" placeholder="Choose a Name"
-        result-class="cursor-pointer w-50 p-2 pl-4 border-2 rounded"
-        dropdown-class="absolute z-10 bg-white w-full border border-gray-400"
+        result-class="cursor-pointer p-2 pl-4 border-2 rounded"
+        dropdown-class="z-10 w-auto bg-white border border-gray-400 absolute inline-block max-w-2xl"
         option-class="px-4 py-3 cursor-pointer hover:bg-blue-100 border-b border-gray-200"
         search="true"
         search-class="pl-4 py-3 focus:outline-none text-xl border-b-4 border-blue-500"
