@@ -13,7 +13,7 @@ Make sure you have also installed [Project-X](https://github.com/calebporzio/pro
 
 Add the class `x-selectpicker` to any select element. Then you can fully customize the look and feel of your selectpicker by adding CSS classes to three HTML elements: the result div, the dropdown div, and each individual option div.
 
-In this example, I'm using Tailwind CSS to style my selectpicker:
+In this example, I'm using [Tailwind CSS](https://tailwindcss.com/) to style my selectpicker:
 ```html
 <select id="people" class="x-selectpicker" placeholder="Choose a Name"
         result-class="cursor-pointer w-50 p-2 pl-4 border-2 rounded"
