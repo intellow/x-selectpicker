@@ -26,6 +26,8 @@ In this example, I'm using Tailwind CSS to style my selectpicker:
     <option value="5">Clarke</option>
 </select>
 ```
+![alt text](https://github.com/intellow/x-selectpicker/blob/master/x-selectpicker.gif "Sample Usage")
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
