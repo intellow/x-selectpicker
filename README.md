@@ -24,7 +24,6 @@ In this example, I'm using Tailwind CSS to style my selectpicker:
     <option value="3">Caleb</option>
     <option value="4">Grant</option>
     <option value="5">Clarke</option>
-    <option value="6">New Baby</option>
 </select>
 ```
 
