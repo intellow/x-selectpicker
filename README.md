@@ -5,7 +5,7 @@ X-Selectpicker is a simple selectpicker using the wonderful Project-X
 ## Install
 Add the following script to the end of your `<head>` section.
 ```html
-<script src="https://cdn.jsdelivr.net/gh/intellow/x-selectpicker@v0.1.0/xselectpicker.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/intellow/x-selectpicker/x-selectpicker.js" defer></script>
 ```
 Make sure you have also installed [Project-X](https://github.com/calebporzio/project-x) as well.
 
