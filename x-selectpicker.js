@@ -68,8 +68,9 @@ function createXselectpicker(select) {
     if (searchEnabled) {
         options.insertAdjacentHTML('afterbegin', '<div id="'+select.id+'_search"><input id="'+select.id+'_search_input" type="text" x-model="search" x-on:keyup="updateOptionsTest(search, \''+select.id+'\')" class="'+select.getAttribute('search-class')+'"/></div>');
         document.getElementById(select.id+'_selection').addEventListener("click", function () {
-            // this is not working, not sure why
-            document.getElementById(select.id+'_search_input').focus();
+            setTimeout(() => {
+                document.getElementById(select.id+'_search_input').focus();
+            }, 10);
         });
     }
 }
