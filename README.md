@@ -1,13 +1,13 @@
 # X-Selectpicker
 
-X-Selectpicker is a simple selectpicker using the wonderful Project-X
+X-Selectpicker is a simple selectpicker using the wonderful [Alpine.js](https://github.com/alpinejs/alpine)
 
 ## Install
 Add the following script to the end of your `<head>` section.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/intellow/x-selectpicker/dist/x-selectpicker.js" defer></script>
 ```
-Make sure you have also installed [Project-X](https://github.com/calebporzio/project-x) as well.
+Make sure you have also installed [Alpine.js](https://github.com/alpinejs/alpine) as well.
 
 ## Usage
 
